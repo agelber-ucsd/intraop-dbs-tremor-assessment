@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+
+# Xcode user data
+*.xcuserstate
+xcuserdata/
+*.moved-aside
+DerivedData/
+.build/
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+
+# Build products
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Archives and logs
+*.xcarchive
+*.log
+
+# Local exports / generated data
+exports/
+*.jsonl
+*.csv
+DBSSpiral_case_autosave.json
+
+# Secrets / provisioning
+*.mobileprovision
+*.p12
+*.cer
